@@ -28,7 +28,7 @@ def baca(path: str) -> np.ndarray:
     f.close()
 
     if len(lines) == 0:
-        raise ValueError("Ga ada file")
+        raise ValueError(" Ga ada file")
 
     n = len(lines)
     i = 0
@@ -162,7 +162,7 @@ def main():
     print(f"Waktu pencarian: {ms:.0f} ms")
     print(f"Banyak kasus yang ditinjau: {cases} kasus")
 
-    ans = input("Apakah ingin menyimpan solusi? (Ya/Tidak): ").strip().lower()
+    ans = input("Apakah Anda ingin menyimpan solusi? (Ya/Tidak): ").strip().lower()
     if ans in ("ya", "y", "yes"):
         out_path = input("Masukkan nama file output (misal: solusi.txt): ").strip()
         if out_path == "":
@@ -177,5 +177,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
