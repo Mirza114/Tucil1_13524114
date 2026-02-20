@@ -1,4 +1,3 @@
-# solve.py
 import numpy as np
 import time
 
@@ -68,3 +67,4 @@ def SolBF(board: np.ndarray):
         return best, cases, ms
     else:
         return None, cases, ms
+
