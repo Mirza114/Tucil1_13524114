@@ -1,4 +1,3 @@
-# gui.py
 import tkinter as tk
 from tkinter import filedialog, messagebox
 
@@ -68,3 +67,4 @@ def run_gui():
     out.grid(row=2, column=0, columnspan=3, padx=5, pady=5)
 
     root.mainloop()
+
